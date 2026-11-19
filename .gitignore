@@ -1,0 +1,55 @@
+# ---- Visual Studio / MSBuild 编译产物 ----
+.vs/
+x64/
+x86/
+Debug/
+Release/
+ARM64/
+
+# ---- 生成文件与中间文件 ----
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.tlog
+*.log
+*.lastbuildstate
+*.res
+*.pch
+*.ipch
+*.obj.enc
+*.iobj
+*.ipdb
+*.sbr
+*.bsc
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+BuildLog.htm
+*.cache
+
+# ---- 用户级设置（含个人路径，不建议提交）----
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 本机 Git 证书链（避免污染仓库）----
+.dsh-ca-bundle.crt
